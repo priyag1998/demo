@@ -39,14 +39,6 @@ public class LineView extends View{
 	{
 		pointA = point;
 	}
-	public void setPointB(PointF point)
-	{
-		pointB = point;
-	}
-	public void draw()
-	{
-		invalidate();
-		requestLayout();
-	}
+	
 
 }
